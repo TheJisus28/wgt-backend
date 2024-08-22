@@ -16,7 +16,6 @@ This project is a gym management backend application built with Node.js, Express
 ## Project Structure
 
 src/
-│
 ├── api/
 │ ├── v1/
 │ │ ├── controllers/ # Handles incoming HTTP requests
@@ -34,7 +33,7 @@ src/
 │ └── db.config.js # Database-specific configuration
 │
 ├── database/ # Database setup and connection
-│ ├── connection.database.js# Database connection setup
+│ ├── connection.database.js # Database connection setup
 │ └── init.database.sql # SQL script for database initialization
 │
 ├── tests/ # Automated tests
