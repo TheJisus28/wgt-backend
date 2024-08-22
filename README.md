@@ -15,32 +15,34 @@ This project is a gym management backend application built with Node.js, Express
 
 ## Project Structure
 
-src/
-├── api/
-│ ├── v1/
-│ │ ├── controllers/ # Handles incoming HTTP requests
-│ │ ├── DTOs/ # Data Transfer Objects for request validation
-│ │ ├── errors/ # Custom error classes
-│ │ ├── middlewares/ # Middleware functions
-│ │ ├── repository/ # Database interaction logic
-│ │ ├── routes/ # API routes definitions
-│ │ ├── services/ # Business logic and interaction with repositories
-│ │ └── app.js # Express application setup
-│ └── v2/ # Future version of the API (placeholder)
-│
-├── config/ # Configuration files (e.g., database, environment variables)
-│ ├── config.js # General configuration
-│ └── db.config.js # Database-specific configuration
-│
-├── database/ # Database setup and connection
-│ ├── connection.database.js # Database connection setup
-│ └── init.database.sql # SQL script for database initialization
-│
-├── tests/ # Automated tests
-│ ├── api/ # Tests for API-related logic
-│ └── database/ # Tests for database interactions
-│
-└── index.js # Entry point of the application
+
+
+src/  
+├── api/  
+│   ├── v1/  
+│   │   ├── controllers/          # Handles incoming HTTP requests  
+│   │   ├── DTOs/                 # Data Transfer Objects for request validation  
+│   │   ├── errors/               # Custom error classes  
+│   │   ├── middlewares/          # Middleware functions  
+│   │   ├── repository/           # Database interaction logic  
+│   │   ├── routes/               # API routes definitions  
+│   │   ├── services/             # Business logic and interaction with repositories  
+│   │   └── app.js                # Express application setup  
+│   └── v2/                       # Future version of the API (placeholder)  
+│  
+├── config/                       # Configuration files (e.g., database, environment variables)  
+│   ├── config.js                 # General configuration  
+│   └── db.config.js              # Database-specific configuration  
+│  
+├── database/                     # Database setup and connection  
+│   ├── connection.database.js    # Database connection setup  
+│   └── init.database.sql         # SQL script for database initialization  
+│  
+├── tests/                        # Automated tests  
+│   ├── api/                      # Tests for API-related logic  
+│   └── database/                 # Tests for database interactions  
+│  
+└── index.js                      # Entry point of the application
 
 ## Installation
 
